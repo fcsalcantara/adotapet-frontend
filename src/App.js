@@ -1,5 +1,5 @@
-import ListaAnimais from './components/ListaAnimais';
 import styled from 'styled-components';
+import ListaAnimais from './components/ListaAnimais';
 import {read} from './services/animais.service';
 
 /* Dados de acesso à API */
@@ -14,7 +14,7 @@ ${JSON.stringify(animais)}
 `);
 /* */
 
-const AppContainer = styled.div`
+export const AppContainer = styled.div`
     height: 100vh;
     background-image: linear-gradient(360deg, #30668d 1%, #b8d9f3 99%);
 `;

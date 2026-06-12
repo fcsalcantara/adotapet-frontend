@@ -16,7 +16,7 @@ function Header() {
       <Link to={'/'}>
         <HeaderLogo/>
       </Link>
-      <Link to={'/'}>
+      <Link to={'/autenticacao'}>
         <HeaderIcones/>
       </Link>
     </HeaderContainer>
